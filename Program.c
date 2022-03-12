@@ -9,10 +9,13 @@ int main() {
 	scanf_s("%d", &num);
 
 	// % modulo division meaning what is remaining after division of num / 2
-	if (num % 2 == 0)
-		printf("%d is even\n", num);
-	else
-		printf("%d is odd\n", num);
+	//if (num % 2 == 0)
+	//	printf("%d is even\n", num);
+	//else
+	//	printf("%d is odd\n", num);
+
+	// If-else ternary
+	num % 2 == 0 ? printf("%d is even\n", num) : printf("%d is odd\n", num);
 
 	return 0;
 }
